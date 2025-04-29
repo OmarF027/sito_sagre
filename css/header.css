@@ -1,0 +1,162 @@
+:root {
+    --bg-color: #F5F5F5; /* Colore di sfondo neutro (beige chiaro o grigio chiaro) */
+    --primary-color: #2C3E50;  /* Colore primario per testo (blu scuro) */
+    --secondary-color: #3498DB; /* Colore secondario per link, icone e pulsanti (blu chiaro) */
+    --hover-color: #E67E22; /* Colore hover per interazioni (arancione chiaro) */
+    --transition-speed: 0.3s;
+    --menu-bg-color: rgba(255, 255, 255, 0.8); /* Menu con trasparenza chiara per contrastare senza essere invadente */
+}
+
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: #333333;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: var(--bg-color);
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 60px;
+}
+
+/* Menu Toggle (Hamburger) */
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    z-index: 1001;
+    background: var(--menu-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all var(--transition-speed);
+}
+
+.menu-toggle:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: var(--primary-color);
+    transition: all var(--transition-speed);
+    position: absolute;
+}
+
+.menu-toggle span:nth-child(1) {
+    transform: translateY(-8px);
+}
+
+.menu-toggle span:nth-child(3) {
+    transform: translateY(8px);
+}
+
+/* Stato aperto - trasformazione in X perfettamente simmetrica */
+.menu-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(0, 0);
+}
+
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(0, 0);
+}
+
+/* Navigation */
+.navigation {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    padding: 80px 20px 20px;
+    transition: right var(--transition-speed);
+    z-index: 999;
+}
+
+.navigation.open {
+    display: flex;
+    right: 0;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+.navigation ul li a:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+/* Media Query per Desktop */
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: transparent;
+        right: 0;
+    }
+
+    .navigation ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .navigation ul li a {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .navigation ul li a:hover {
+        background-color: transparent;
+        color: var(--hover-color);
+    }
+}
