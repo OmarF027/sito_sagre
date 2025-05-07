@@ -33,8 +33,7 @@
         <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#eventi">Eventi</a></li>
-        <li><a href="#sponsor">Sponsorizzazioni</a></li>
-        <li><a href="#contatti">Contatti</a></li>
+        <li><a href="#contatti">Sponsorizzazioni</a></li>
         </ul>
     </nav>
 </header>
