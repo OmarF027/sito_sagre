@@ -8,41 +8,79 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contatti.css">
 </head>
 <body>
 
 <header>
     <div class="logo">
         <a href="index.php" aria-label="Vai alla home">
-            <img src="img/logo.jpg" alt="Logo Maremma Che Sagra" style="height: 60px;">
+            <img src="img/logo2.jpg" alt="Logo Maremma Che Sagra" style="height: 60px;">
         </a>
     </div>
 
-    <div class="menu-toggle" onclick="toggleMenu()" aria-label="Apri menu">
+    <!-- Menu Toggle sempre visibile -->
+    <div class="menu-toggle" id="menuToggle" aria-label="Apri menu" aria-expanded="false" aria-controls="main-navigation">
         <span></span>
         <span></span>
         <span></span>
     </div>
 
-    <nav class="navigation">
+    <!-- Menu di navigazione -->
+    <nav class="navigation" id="main-navigation">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="eventi.php">Eventi</a></li>
-            <li><a href="sponsor.php">Sponsorizzazioni</a></li>
-            <li><a href="contatti.php">Contatti</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#eventi">Eventi</a></li>
+        <li><a href="#sponsor">Sponsorizzazioni</a></li>
+        <li><a href="#contatti">Contatti</a></li>
         </ul>
     </nav>
 </header>
 
 <script>
-    function toggleMenu() {
-        const menu = document.querySelector('.navigation');
-        const toggle = document.querySelector('.menu-toggle');
-        menu.classList.toggle('open');
-        toggle.classList.toggle('open');
-    }
-</script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.getElementById('menuToggle');
+        const navigation = document.getElementById('main-navigation');
+        const navLinks = document.querySelectorAll('#main-navigation a');
 
-</body>
-</html>
+        menuToggle.addEventListener('click', function () {
+            const isOpen = menuToggle.classList.toggle('open');
+            navigation.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        // Chiudi menu cliccando fuori
+        document.addEventListener('click', function(e) {
+            if (!menuToggle.contains(e.target) && !navigation.contains(e.target)) {
+                menuToggle.classList.remove('open');
+                navigation.classList.remove('open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Chiudi menu e fai scroll alla sezione
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+
+                if (targetSection) {
+                    e.preventDefault();
+
+                    // Chiudi il menu
+                    menuToggle.classList.remove('open');
+                    navigation.classList.remove('open');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+
+                    // Scroll fluido
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    });
+</script>
