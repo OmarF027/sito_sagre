@@ -2,16 +2,19 @@
   <!-- Contact Section -->
   <section id="contatti" class="contact-section">
     <div class="contact-header">
-      <h1 style="font-size: 3rem; color: #000; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); text-align: center; margin-bottom: 40px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 0.2s;">Sponsorizzazioni</h1>
-      
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
-        Se rappresenti un'associazione, un'impresa o un'organizzazione e desideri promuovere la tua attività sulle nostre pagine, siamo aperti a sponsorizzazioni!
-      </p>
-      
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
-        Per maggiori informazioni su come collaborare con noi e ottenere visibilità durante le nostre sagre, puoi trovarci ai seguenti contatti:
-      </p>
-    </div>
+    <h1 style="font-size: 3rem; color: #000; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); text-align: center; margin-bottom: 40px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 0.2s;">Sponsorizzazioni</h1>
+
+<p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+  <strong>Vuoi promuovere la tua attività o segnalare la tua sagra?</strong>
+</p>
+
+<p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+  Se rappresenti un’associazione, un’impresa o un’organizzazione e desideri ottenere visibilità all’interno del nostro sito, siamo aperti a collaborazioni e sponsorizzazioni!
+</p>
+
+<p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+  Raccogliamo e promuoviamo eventi e sagre locali: se organizzi una sagra e vuoi che venga inserita sul nostro sito, contattaci! È prevista una piccola quota di adesione per contribuire alla gestione e visibilità del portale.
+</p>
     
     <div class="contact-grid">
       <!-- Mappa -->
