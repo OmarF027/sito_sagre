@@ -1,0 +1,1 @@
+Sito dedicato agli eventi gastronomici della Maremma: scopri le migliori sagre e feste della provincia di Grosseto, con informazioni su date, luoghi e piatti tipici da non perdere. Un punto di riferimento per gli appassionati della cucina tradizionale e delle tradizioni locali. Sviluppato con HTML, CSS, PHP e JavaScript.
