@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/eventi.css">
     <link rel="stylesheet" href="css/contatti.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
 

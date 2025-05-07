@@ -1,0 +1,239 @@
+/* === eventi.css ===
+   Scritto da un veterano: 50 anni di esperienza, smanetta al PC da quando era in fasce. */
+
+   :root {
+    --color-primary: #d35400;
+    --color-primary-hover: #e67e22;
+    --color-bg: #fff;
+    --color-bg-alt: #f9f9f9;
+    --color-text: #333;
+    --color-text-light: #555;
+    --transition: 0.3s ease;
+    --border-radius: 12px;
+    --card-anim-duration: 0.6s;
+  }
+  
+  /* Container sezione Eventi */
+  #eventi {
+    padding: clamp(2rem, 5vw, 5rem) 1rem;
+    background: var(--color-bg-alt);
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Header animato */
+  #eventi .section-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    animation: fadeInDown 0.8s ease forwards;
+  }
+  #eventi .section-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -0.5rem;
+    width: 0;
+    height: 4px;
+    background: var(--color-primary);
+    border-radius: var(--border-radius);
+    transition: width var(--transition) var(--transition), left var(--transition);
+  }
+  #eventi .section-title:hover::after,
+  #eventi .section-title:focus::after {
+    width: 50%;
+    left: 25%;
+  }
+  
+  /* FadeInDown Keyframes */
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Grid con animazione on-load */
+  .event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: clamp(1rem, 3vw, 2rem);
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-list li {
+    background: var(--color-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
+    will-change: transform;
+    opacity: 0;
+    animation: fadeInUp 0.6s ease forwards;
+    animation-delay: 0.2s; /* Ritardo per le card */
+  }
+  
+  .event-list li:nth-child(odd) {
+    animation-delay: 0.4s; /* Ritardo per card dispari */
+  }
+  
+  .event-list li:hover,
+  .event-list li:focus-within {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    background: #fff;
+  }
+  
+  /* FadeInUp Keyframes */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Titolo e icona con bounce */
+  .event-list h3 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0 0 1rem;
+    display: flex;
+    align-items: center;
+    animation: bounceIn 0.6s ease;
+  }
+  .event-list h3::before {
+    content: '\f073';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 0.5rem;
+    color: var(--color-primary);
+    font-size: 1.25em;
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.3);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Data e descrizione */
+  .event-list p {
+    flex-grow: 1;
+    margin: 0 0 1rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+  }
+  .event-list p:nth-child(2) {
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+  
+  /* Bottone azione con pulsazione */
+  .event-list .btn {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.75em 1.5em;
+    border-radius: 50px;
+    background: var(--color-primary);
+    color: #fff;
+    align-self: start;
+    position: relative;
+    overflow: hidden;
+    transition: background var(--transition), transform var(--transition);
+    animation: pulse 2s infinite alternate;
+  }
+  .event-list .btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+  }
+  .event-list .btn:hover,
+  .event-list .btn:focus {
+    background: var(--color-primary-hover);
+    transform: translateY(-3px);
+    animation: none;
+  }
+  .event-list .btn:hover::after {
+    left: 200%;
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(211, 84, 0, 0.4);
+    }
+    100% {
+      box-shadow: 0 0 0 10px rgba(211, 84, 0, 0);
+    }
+  }
+  
+  /* Accessibilità: focus states */
+  .event-list li:focus-within,
+  .event-list .btn:focus {
+    outline: 3px solid var(--color-primary-hover);
+    outline-offset: 4px;
+  }
+  
+  /* Rispetta preferenze utente per animazioni ridotte */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      transition: none !important;
+      animation: none !important;
+    }
+  }
+  
+  /* Mobile optimizations */
+  @media (max-width: 575.98px) {
+    #eventi {
+      padding: 2rem 0.5rem;
+    }
+    .event-list {
+      gap: 1rem;
+    }
+    .event-list li {
+      padding: 1rem;
+    }
+    .event-list h3 {
+      font-size: 1.25rem;
+    }
+    .event-list .btn {
+      width: 100%;
+      text-align: center;
+      animation: none;
+    }
+  }
+  
