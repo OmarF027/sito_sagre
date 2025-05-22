@@ -1,34 +1,5 @@
 /* =================== MEDIA QUERIES =================== */
 
-/* Tablet (768px - 1024px) */
-@media screen and (max-width: 1024px) {
-    /* Header */
-    .navigation ul {
-        padding: 15px 0;
-    }
-
-    /* Home Section */
-    #home .section-title {
-        font-size: 2.5rem;
-    }
-
-    /* Eventi Section */
-    .event-list li {
-        padding: 20px;
-        margin: 15px 0;
-    }
-
-    /* Contatti Section */
-    .contact-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .map-responsive {
-        height: 300px;
-    }
-}
-
 /* Mobile (fino a 768px) */
 @media screen and (max-width: 768px) {
     /* Base */
@@ -37,17 +8,85 @@
     }
 
     /* Header */
+    .header {
+        position: relative;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; /* Assicura che il logo e il menu toggle siano centrati verticalmente */
+    }
+
     .logo img {
         height: 50px !important;
     }
 
+    /* Box contenitore per il menu toggle */
+    .menu-toggle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff; /* Box bianca */
+        border-radius: 8px; /* Angoli arrotondati */
+        padding: 8px; /* Spazio attorno al toggle */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombra per la box */
+        z-index: 1000; /* Assicura che la box sia sopra il contenuto */
+        position: relative; /* Posizione relativa per il contenuto all'interno */
+    }
+
+    /* Menu Toggle */
+    .menu-toggle {
+        position: absolute; /* Posizione assoluta per posizionare il toggle all'interno della box */
+        top: 50%; /* Allinea il toggle al centro della box */
+        right: 15px; /* Posizione a destra */
+        transform: translateY(-50%); /* Centrato verticalmente rispetto alla box */
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1001; /* Posizione sopra la box */
+        background: none;
+        border: none;
+    }
+
+    .menu-toggle span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: var(--primary-color);
+        transition: all 0.3s;
+        position: absolute;
+    }
+
+    .menu-toggle span:nth-child(1) {
+        transform: translateY(-8px);
+    }
+
+    .menu-toggle span:nth-child(2) {
+        transform: translateY(0);
+    }
+
+    .menu-toggle span:nth-child(3) {
+        transform: translateY(8px);
+    }
+
+    /* Stato aperto - X simmetrica */
+    .menu-toggle.open span:nth-child(1) {
+        transform: rotate(45deg);
+    }
+
+    .menu-toggle.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.open span:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
     .navigation {
         position: fixed;
-        top: 70px;
+        top: 0;
         right: -100%;
         background: #fff;
         width: 80%;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 70px); /* Altezza del menu che esclude il logo */
         transition: 0.3s;
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
     }
@@ -132,35 +171,9 @@
 
 /* Small Mobile (fino a 480px) */
 @media screen and (max-width: 480px) {
-    /* Home Section */
-    #home .section-title {
-        font-size: 1.8rem;
-    }
-
-    /* Contatti Section */
-    .map-responsive {
-        height: 250px;
-    }
-
-    /* Footer */
-    .website__rights {
-        font-size: 0.9rem;
+    .navigation ul li a {
+        font-size: 18px;
+        padding: 10px 15px;
     }
 }
 
-/* Landscape Orientation */
-@media screen and (max-height: 500px) and (orientation: landscape) {
-    .navigation {
-        top: 60px;
-        height: auto;
-        overflow-y: auto;
-    }
-}
-
-/* High-resolution Devices */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .logo img {
-        transform: translateZ(0);
-        image-rendering: -webkit-optimize-contrast;
-    }
-}

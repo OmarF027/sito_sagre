@@ -13,8 +13,8 @@
                     <a class="social__icon--link" href="https://www.instagram.com" target="_blank" aria-label="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="social__icon--link" href="https://www.youtube.com" target="_blank" aria-label="YouTube">
-                        <i class="fab fa-youtube"></i>
+                    <a class="social__icon--link" href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
             </div>

@@ -45,7 +45,6 @@
 #home .highlight {
     color: rgb(0, 0, 0); /* Arancione caldo che si abbina al giallo e verde */
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Effetto ombra al testo */
 }
 
 /* Paragrafo con effetto di apparizione */
