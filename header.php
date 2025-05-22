@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/eventi.css">
     <link rel="stylesheet" href="css/contatti.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
-
 </head>
 <body>
 
@@ -47,13 +46,14 @@
         const navigation = document.getElementById('main-navigation');
         const navLinks = document.querySelectorAll('#main-navigation a');
 
+        // Gestisci il click sul toggle per aprire/chiudere il menu
         menuToggle.addEventListener('click', function () {
             const isOpen = menuToggle.classList.toggle('open');
             navigation.classList.toggle('open');
             menuToggle.setAttribute('aria-expanded', isOpen);
         });
 
-        // Chiudi menu cliccando fuori
+        // Chiudi il menu quando clicchi fuori
         document.addEventListener('click', function(e) {
             if (!menuToggle.contains(e.target) && !navigation.contains(e.target)) {
                 menuToggle.classList.remove('open');
@@ -62,7 +62,7 @@
             }
         });
 
-        // Chiudi menu e fai scroll alla sezione
+        // Chiudi il menu e fai scroll fluido alla sezione
         navLinks.forEach(link => {
             link.addEventListener('click', function(e) {
                 const targetId = this.getAttribute('href');
@@ -86,3 +86,6 @@
         });
     });
 </script>
+</body>
+</html>
+
