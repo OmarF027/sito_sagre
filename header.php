@@ -40,9 +40,6 @@
     </nav>
 </header>
 
-<!-- Include il file JavaScript esterno -->
-<script src="js/script.js"></script>
-
 </body>
 </html>
 

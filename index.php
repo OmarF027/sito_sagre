@@ -49,3 +49,5 @@
 
 <?php include('footer.php'); ?>
 
+<!-- Include il file JavaScript esterno -->
+<script src="js/script.js"></script>
