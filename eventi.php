@@ -46,9 +46,20 @@
 </section>
 
 <style>
-  #eventi p {
-    text-align: left;
-  }
+#eventi {
+  min-height: 100vh;           /* mantiene altezza minima pieno schermo */
+  border-bottom: 3px solid #ccc; /* riga grigia chiara */
+  padding-bottom: 40px;         /* spazio tra card e riga */
+  margin-bottom: 40px;          /* spazio tra riga e sezione successiva */
+  box-sizing: border-box;       /* include padding nell'altezza */
+}
+
+#eventi p {
+  text-align: left;
+}
+
+#eventi .event-list {
+  margin-bottom: 0; /* togli margine doppio */
+}
+
 </style>
-
-
