@@ -16,6 +16,20 @@
 </head>
 <body>
 
+ <style>
+        /* Regola mobile-specifica */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                right: 20px !important; 
+                left: auto !important;
+                position: fixed !important;
+                top: 25px !important;
+                transform: none !important;
+                z-index: 1001 !important;
+            }
+        }
+    </style>
+
 <header>
     <div class="logo">
         <a href="index.php" aria-label="Vai alla home">
