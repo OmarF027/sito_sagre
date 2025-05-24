@@ -60,21 +60,9 @@
 </section>
 
 <style>
-#eventi {
-  min-height: 100vh;
-  border-bottom: 3px solid #ccc;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  box-sizing: border-box;
+#eventi {           
+  border-bottom: 3px solid #ccc; 
 }
 
-#eventi p {
-  text-align: left;
-}
-
-#eventi .event-list {
-  margin-bottom: 0;
-}
 </style>
-
 

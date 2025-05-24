@@ -59,6 +59,9 @@
   </ul>
 </section>
 
+<style>
+#eventi {           
+  border-bottom: 3px solid #ccc; 
+}
 
-
-
+</style>

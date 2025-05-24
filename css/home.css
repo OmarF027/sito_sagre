@@ -1,23 +1,22 @@
-/* Sezione Home */
 #home {
-    padding: 100px 20px;
+    padding: 6rem 1.25rem 4rem;
     text-align: center;
-    border-bottom: 3px solid #dcdcdc; /* Linea di separazione neutra */
+    border-bottom: 3px solid #dcdcdc;
     opacity: 0;
-    animation: fadeIn 2s forwards; /* Animazione di ingresso */
+    animation: fadeIn 2s forwards;
+    position: relative;
+    box-sizing: border-box;
 }
 
-/* Animazione Fade-in */
+#home > *:not(.section-title) { /* Esclude il titolo dalla trasformazione generale */
+    transform: translateY(-25%);
+}
+
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-/* Titolo principale con effetto di scorrimento */
 #home .section-title {
     font-size: 3em;
     margin-bottom: 20px;
@@ -26,27 +25,27 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     opacity: 0;
-    animation: slideInFromLeft 2.5s forwards;
-    text-align: center; /* centra il testo */
-    display: block; /* assicurati che funzioni con text-align */
-    margin-left: auto;
-    margin-right: auto;
+    animation: slideInFromLeft 2.5s forwards !important;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 0 auto;
 }
 
 @keyframes slideInFromLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(-100%) translateY(-25%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) translateY(-25%);
+    }
 }
 
 /* Evidenziare il nome del sito */
 #home .highlight {
-    color: rgb(0, 0, 0); /* Arancione caldo che si abbina al giallo e verde */
+    color: rgb(0, 0, 0); 
     font-weight: bold;
 }
 

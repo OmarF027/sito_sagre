@@ -87,10 +87,10 @@
                 <select name="language" id="language-select" onchange="if(this.value) location = this.value;">
                     <option value="" disabled selected hidden>🌍 Langue</option>
                     <option value="../index.php">Italiano</option>
-                    <option value="index.php">English</option>
+                    <option value="../en/index.php">English</option>
                     <option value="../es/index.php">Español</option>
                     <option value="../de/index.php">Deutsch</option>
-                    <option value="../fr/index.php">Français</option>
+                    <option value="index.php">Français</option>
                     <option value="../ru/index.php">Русский</option>
                 </select>
             </div>
