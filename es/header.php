@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Maremma Che Sagra | Sagras, festivales y gastronomía local en la Maremma, Toscana</title>
+
+    <link rel="alternate" hreflang="it" href="https://www.maremmachesagra.it/index.php" />
+    <link rel="alternate" hreflang="en" href="https://www.maremmachesagra.it/en/index.php" />
+    <link rel="alternate" hreflang="es" href="https://www.maremmachesagra.it/es/index.php" />
+    <link rel="alternate" hreflang="de" href="https://www.maremmachesagra.it/de/index.php" />
+    <link rel="alternate" hreflang="fr" href="https://www.maremmachesagra.it/fr/index.php" />
+    <link rel="alternate" hreflang="ru" href="https://www.maremmachesagra.it/ru/index.php" />
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../css/header.css" />

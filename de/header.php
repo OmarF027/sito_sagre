@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Maremma Che Sagra | Food Festivals & Local Traditions in Maremma, Tuscany</title>
+    <title>Maremma Che Sagra | Food Festivals & Lokale Traditionen in der Maremma, Toskana</title>
 
     <link rel="alternate" hreflang="it" href="https://www.maremmachesagra.it/index.php" />
     <link rel="alternate" hreflang="en" href="https://www.maremmachesagra.it/en/index.php" />
@@ -78,14 +78,14 @@
     <header>
         <div class="logo-language">
             <div class="logo">
-                <a href="index.php" aria-label="Go to homepage">
+                <a href="index.php" aria-label="Zur Startseite wechseln">
                     <img src="../img/logo2.jpg" alt="Maremma Che Sagra Logo" style="height: 60px;" />
                 </a>
             </div>
 
-            <div class="language-selector" aria-label="Language selector">
+            <div class="language-selector" aria-label="Sprachauswahl">
                 <select name="language" id="language-select" onchange="if(this.value) location = this.value;">
-                    <option value="" disabled selected hidden>🌍 Language</option>
+                    <option value="" disabled selected hidden>🌍 Sprache</option>
                     <option value="../index.php">Italiano</option>
                     <option value="index.php">English</option>
                     <option value="../es/index.php">Español</option>
@@ -96,7 +96,7 @@
             </div>
         </div>
 
-        <div class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-navigation">
+        <div class="menu-toggle" id="menuToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-navigation">
             <span></span>
             <span></span>
             <span></span>
@@ -104,12 +104,11 @@
 
         <nav class="navigation" id="main-navigation">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#eventi">Events</a></li>
-                <li><a href="#contatti">Sponsorships</a></li>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#eventi">Veranstaltungen</a></li>
+                <li><a href="#contatti">Sponsoring</a></li>
             </ul>
         </nav>
     </header>
 </body>
 </html>
-
