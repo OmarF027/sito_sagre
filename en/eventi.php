@@ -4,19 +4,7 @@
   </h2>
 
   <ul class="event-list" role="list">
-    <li role="listitem">
-      <h3>Sagra della Fragola</h3>
-      <p><strong>Date:</strong> 
-        <time datetime="2025-05-16">May 16, 2025</time> – 
-        <time datetime="2025-05-25">May 25, 2025</time>
-      </p>
-      <p><strong>Location:</strong> Marsiliana, Manciano (GR)</p>
-      <p>The 51st edition of the Strawberry Festival in Marsiliana will be held from May 16–18 and May 23–25.</p>
-      <a href="https://www.google.com/search?q=Sagra+della+Fragola+Marsiliana+GR+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Learn more about the Strawberry Festival in Marsiliana 2025">
-        Learn More
-      </a>
-    </li>
-
+    
     <li role="listitem">
       <h3>Sagra della Lasagna</h3>
       <p><strong>Date:</strong> 
@@ -42,6 +30,19 @@
         Learn More
       </a>
     </li>
+
+    <li role="listitem">
+  <h3>Non solo... Strozzapreti</h3>
+  <p><strong>Date:</strong> 
+    <time datetime="2025-06-07">June 7, 2025</time>
+  </p>
+  <p><strong>Location:</strong> Sticciano, Roccastrada (GR)</p>
+  <p>An event featuring local products, live performances, activities for children, and live music.</p>
+  <a href="https://www.google.com/search?q=Not+only+Strozzapreti+Sticciano+Roccastrada+GR+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Learn more about Not only Strozzapreti event in Sticciano Roccastrada 2025">
+    Learn more
+  </a>
+</li>
+
   </ul>
 </section>
 

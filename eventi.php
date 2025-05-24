@@ -5,19 +5,6 @@
 
   <ul class="event-list" role="list">
     <li role="listitem">
-      <h3>Sagra della Fragola</h3>
-      <p><strong>Data:</strong> 
-        <time datetime="2025-05-16">16 Maggio 2025</time> – 
-        <time datetime="2025-05-25">25 Maggio 2025</time>
-      </p>
-      <p><strong>Luogo:</strong> Marsiliana, Manciano (GR)</p>
-      <p>La 51ª edizione della Sagra della Fragola a Marsiliana si terrà dal 16 al 18 e dal 23 al 25 maggio con dolci, musica e mercatini.</p>
-      <a href="https://www.google.com/search?q=Sagra+della+Fragola+Marsiliana+GR+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Scopri di più sulla Sagra della Fragola a Marsiliana 2025">
-        Scopri di più
-      </a>
-    </li>
-
-    <li role="listitem">
       <h3>Sagra della Lasagna</h3>
       <p><strong>Data:</strong> 
         <time datetime="2025-05-23">23 Maggio 2025</time> – 
@@ -42,16 +29,27 @@
         Scopri di più
       </a>
     </li>
+
+      <li role="listitem">
+      <h3>Non solo... Strozzapreti</h3>
+      <p><strong>Data:</strong> 
+        <time datetime="2025-06-07">7 Giugno 2025</time>
+      </p>
+      <p><strong>Luogo:</strong> Sticciano, Roccastrada (GR)</p>
+      <p>Evento con prodotti tipici locali, spettacolo, attività per bambini e musica dal vivo.</p>
+      <a href="https://www.google.com/search?q=Non+solo+Strozzapreti+Sticciano+Scalo+GR+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Scopri di più su Non solo... Strozzapreti a Sticciano Scalo 2025">
+  Scopri di più</a>
+    </li>
   </ul>
 </section>
 
 <style>
 #eventi {
-  min-height: 100vh;           /* mantiene altezza minima pieno schermo */
-  border-bottom: 3px solid #ccc; /* riga grigia chiara */
-  padding-bottom: 40px;         /* spazio tra card e riga */
-  margin-bottom: 40px;          /* spazio tra riga e sezione successiva */
-  box-sizing: border-box;       /* include padding nell'altezza */
+  min-height: 100vh;           
+  border-bottom: 3px solid #ccc; 
+  padding-bottom: 40px;         
+  margin-bottom: 40px;          
+  box-sizing: border-box;      
 }
 
 #eventi p {
@@ -59,7 +57,7 @@
 }
 
 #eventi .event-list {
-  margin-bottom: 0; /* togli margine doppio */
+  margin-bottom: 0; 
 }
 
 </style>
