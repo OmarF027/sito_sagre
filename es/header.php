@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Maremma Che Sagra | Sagras, festivales y gastronomía local en la Maremma, Toscana</title>
+    <title><?php echo isset($page_title) ? $page_title : "Maremma Che Sagra | Sagras, festivales y gastronomía local en la Maremma, Toscana"; ?></title>
 
     <link rel="alternate" hreflang="it" href="https://www.maremmachesagra.it/index.php" />
     <link rel="alternate" hreflang="en" href="https://www.maremmachesagra.it/en/index.php" />
@@ -102,13 +102,17 @@
             <span></span>
         </div>
 
+        <?php
+        $current_page = basename($_SERVER['PHP_SELF']);
+        ?>
         <nav class="navigation" id="main-navigation">
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#eventi">Eventos</a></li>
-                <li><a href="#contatti">Colaboraciones</a></li>
-            </ul>
+        <ul>
+            <li><a href="<?php echo ($current_page === 'index.php') ? '#home' : 'index.php#home'; ?>">Inicio</a></li>
+            <li><a href="<?php echo ($current_page === 'index.php') ? '#eventi' : 'index.php#eventi'; ?>">Eventos</a></li>
+            <li><a href="<?php echo ($current_page === 'index.php') ? '#contatti' : 'index.php#contatti'; ?>">Colaboraciones</a></li>
+        </ul>
         </nav>
+
     </header>
 </body>
 </html>

@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Datenschutzerklärung & Cookie-Richtlinie - Maremma Che Sagra</title>
-</head>
-<body>
+<?php 
+$page_title = "Datenschutz & Cookie-Richtlinie | Maremma Che Sagra"; 
+include('header.php'); ?>
+<main style="max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: 'Kumbh Sans', sans-serif; line-height: 1.6;">
+  
   <h1>Datenschutzerklärung</h1>
 
   <p>Dieses Dokument beschreibt, wie wir mit den persönlichen Daten der Nutzer umgehen, die unsere Webseite besuchen.</p>
@@ -41,5 +38,43 @@
 
   <h2>Weitere Informationen</h2>
   <p>Für weitere Details kontaktieren Sie bitte <a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a>.</p>
-</body>
-</html>
+  
+    </main>
+
+<?php include('cookie.php'); ?>
+<?php include('footer.php'); ?>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const menuToggle = document.getElementById('menuToggle');
+  const navigation = document.getElementById('main-navigation');
+  const body = document.body;
+
+  menuToggle.addEventListener('click', function () {
+    const isOpen = menuToggle.classList.toggle('open');
+    navigation.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen);
+    body.style.overflow = isOpen ? 'hidden' : 'auto';
+  });
+
+  // Chiudi il menu se clicchi fuori
+  document.addEventListener('click', function (e) {
+    if (!menuToggle.contains(e.target) && !navigation.contains(e.target)) {
+      menuToggle.classList.remove('open');
+      navigation.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      body.style.overflow = 'auto';
+    }
+  });
+
+  // Chiudi menu quando clicchi su un link (che in privacy.php fa redirect a index.php)
+  document.querySelectorAll('#main-navigation a').forEach(link => {
+    link.addEventListener('click', function () {
+      menuToggle.classList.remove('open');
+      navigation.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      body.style.overflow = 'auto';
+    });
+  });
+});
+</script>

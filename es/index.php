@@ -47,6 +47,7 @@
     <i class="fab fa-whatsapp"></i>
 </a>
 
+<?php include('cookie.php'); ?>
 <?php include('footer.php'); ?>
 
 <!-- Include the external JavaScript file -->

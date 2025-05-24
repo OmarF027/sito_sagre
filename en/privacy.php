@@ -1,4 +1,6 @@
-<?php include('header.php'); ?>
+<?php
+$page_title = "Privacy Policy & Cookie Policy | Maremma Che Sagra";
+include('header.php'); ?>
 <main style="max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: 'Kumbh Sans', sans-serif; line-height: 1.6;">
 
   <h1>Privacy Policy</h1>
@@ -39,6 +41,7 @@
 
   </main>
 
+<?php include('cookie.php'); ?>
 <?php include('footer.php'); ?>
 
 <script>
