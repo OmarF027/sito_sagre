@@ -12,7 +12,7 @@
 
   <h2>Data Controller</h2>
   <p>The data controller is Maremma Che Sagra, located in Tuscany, Italy. For any privacy-related requests, you can contact us at the email address: 
-  <a href="mailto:info@maremmachesagra.it">info@maremmachesagra.it</a>.</p>
+  <a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a>.</p>
 
   <h2>Types of Data Collected</h2>
   <p>We collect personal data only if voluntarily provided by the user (e.g., via the contact form).
@@ -40,6 +40,6 @@
   By disabling technical cookies, some functionalities may not work properly.</p>
 
   <h2>Further Information</h2>
-  <p>For more details, please contact <a href="mailto:info@maremmachesagra.it">info@maremmachesagra.it</a>.</p>
+  <p>For more details, please contact <a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a>.</p>
 </body>
 </html>

@@ -3,9 +3,9 @@
 <!-- Home Section -->
 <div id="home" class="section">
 <h1 class="section-title" style="text-align: center; margin: 0; display: inline-block;">
-    Welcome to <span class="highlight">Maremma Che Sagra</span>
+    Bienvenidos a <span class="highlight">Maremma Che Sagra</span>
 </h1>
-<p><b>Discover the gastronomic traditions of Maremma</b>, a land of authentic flavors and signature dishes. Stay up to date on events, <i>local specialties</i>, and everything that makes our local festivals truly unique.</p>
+<p><b>Descubre las tradiciones gastronómicas de la Maremma</b>, tierra de sabores auténticos y platos inolvidables. Mantente al tanto de los eventos, <i>especialidades locales</i> y todo lo que hace únicas nuestras fiestas.</p>
 </div>
 
 <?php include('eventi.php'); ?>
@@ -51,3 +51,4 @@
 
 <!-- Include the external JavaScript file -->
 <script src="../js/script.js"></script>
+

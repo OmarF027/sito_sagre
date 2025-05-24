@@ -1,19 +1,21 @@
 <body class="contact-page">
   <!-- Contact Section -->
-  <section id="contatti" class="contact-section">
+  <section id="colaboraciones" class="contact-section">
     <div class="contact-header">
-      <h1 style="font-size: 3rem; color: #000; font-weight: bold; text-align: center; margin-bottom: 40px; opacity: 1 !important; animation: fadeIn 2s forwards !important; animation-delay: 0.2s; text-shadow: none !important;">Sponsorships</h1>
+      <h1 style="font-size: 3rem; color: #000; font-weight: bold; text-align: center; margin-bottom: 40px; opacity: 1 !important; animation: fadeIn 2s forwards !important; animation-delay: 0.2s; text-shadow: none !important;">
+        Colaboraciones 
+      </h1>
 
       <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
-        <strong>Would you like to promote your business or your festival?</strong>
+        <strong>¿Quieres promocionar tu empresa o festival?</strong>
       </p>
 
       <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
-        If you represent an association, company, or organization and want to gain visibility on our website, we are open to collaborations and sponsorships!
+        Si representas una asociación, empresa u organización y deseas aumentar tu visibilidad en nuestro sitio web, ¡estamos abiertos a colaboraciones!
       </p>
 
       <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
-        We collect and promote local events and festivals: if you organize a festival and want it featured on our site, contact us! A small participation fee is required to help support the portal's management and visibility.
+        Recopilamos y promovemos eventos y festivales locales. Si organizas un festival y quieres aparecer en nuestra web, contáctanos. Se requiere una pequeña cuota de participación para apoyar la gestión y mejorar la visibilidad del portal.
       </p>
     </div>
 
@@ -22,7 +24,7 @@
       <div class="map-card">
         <h3 class="section-title">
           <i class="fas fa-map-marker-alt"></i>
-          Location
+          Ubicación
         </h3>
         <div class="map-responsive">
           <iframe
@@ -35,12 +37,12 @@
       <div class="info-card">
         <h3 class="section-title">
           <i class="fas fa-info-circle"></i>
-          Contacts
+          Contacto
         </h3>
         <div class="contact-info">
           <div class="info-item">
             <i class="fas fa-map-pin"></i>
-            <p>58100 Grosseto (GR)<br>Tuscany, Italy</p>
+            <p>58100 Grosseto (GR)<br>Toscana, Italia</p>
           </div>
           <div class="info-item">
             <i class="fas fa-phone-alt"></i>
@@ -50,11 +52,11 @@
             <i class="fas fa-envelope"></i>
             <p><a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a></p>
           </div>
-        <div class="info-item">
+          <div class="info-item">
             <i class="fas fa-file-alt" aria-hidden="true"></i>
             <p>
-              <a href="privacy.php" target="_blank" rel="noopener noreferrer" aria-label="Privacy and Cookie Policy" class="privacy-link">
-                Privacy & Cookie Policy
+              <a href="privacy.php" target="_blank" rel="noopener noreferrer" aria-label="Política de privacidad y cookies" class="privacy-link">
+                Política de privacidad y cookies
               </a>
             </p>
           </div>
@@ -64,7 +66,6 @@
   </section> 
 </body>
 
-<!-- CSS Animation for paragraphs -->
 <style>
 @keyframes fadeInUp {
     0% {
@@ -77,4 +78,5 @@
     }
 }
 </style>
+
 

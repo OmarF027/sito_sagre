@@ -1,58 +1,69 @@
-<section id="eventi" class="section" aria-label="Upcoming Events">
+<section id="eventi" class="section" aria-label="Próximos eventos programados">
   <h2 style="font-size: 3rem; color: #000; font-weight: bold; text-align: center; margin-bottom: 40px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 0.2s;">
-    Upcoming Events
+    Próximos eventos
   </h2>
 
   <ul class="event-list" role="list">
-    
     <li role="listitem">
       <h3>Sagra della Lasagna</h3>
-      <p><strong>Date:</strong> 
-        <time datetime="2025-05-23">May 23, 2025</time> – 
-        <time datetime="2025-06-01">June 1, 2025</time>
+      <p><strong>Fecha:</strong> 
+        <time datetime="2025-05-23">23 mayo</time> – 
+        <time datetime="2025-06-01">1 junio</time>
       </p>
-      <p><strong>Location:</strong> Montenero d'Orcia (GR)</p>
-      <p>From May 23–25 and May 30–June 1. Enjoy traditional lasagna with local ragù sauce.</p>
-      <a href="https://www.google.com/search?q=Sagra+della+Lasagna+Montenero+d'Orcia+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Learn more about the Lasagna Festival in Montenero d'Orcia 2025">
-        Learn More
+      <p><strong>Lugar:</strong> Montenero d'Orcia (GR)</p>
+      <p>Del 23 al 25 de mayo y del 30 de mayo al 1 de junio, la lasaña tradicional con ragú local es la protagonista.</p>
+      <a href="https://www.google.com/search?q=Sagra+della+Lasagna+Montenero+d'Orcia+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Más información sobre la Sagra della Lasagna en Montenero d'Orcia 2025">
+        Más información
       </a>
     </li>
 
     <li role="listitem">
       <h3>Il Mare in Padella e non solo!</h3>
-      <p><strong>Date:</strong> 
-        <time datetime="2025-05-31">May 31, 2025</time> – 
-        <time datetime="2025-06-02">June 2, 2025</time>
+      <p><strong>Fecha:</strong> 
+        <time datetime="2025-05-31">31 mayo</time> – 
+        <time datetime="2025-06-02">2 junio</time>
       </p>
-      <p><strong>Location:</strong> Riotorto, Piombino (LI)</p>
-      <p>A seafood-focused event with local specialties, maritime street food, music, and crafts.</p>
-      <a href="https://www.google.com/search?q=Il+Mare+in+Padella+Riotorto+Piombino+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Learn more about Il Mare in Padella in Riotorto 2025">
-        Learn More
+      <p><strong>Lugar:</strong> Riotorto, Piombino (LI)</p>
+      <p>Evento dedicado a la cocina de pescado con especialidades locales, street food marinero, música y artesanía.</p>
+      <a href="https://www.google.com/search?q=Il+Mare+in+Padella+Riotorto+Piombino+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Más información sobre Il Mare in Padella en Riotorto 2025">
+        Más información
       </a>
     </li>
 
     <li role="listitem">
-  <h3>Non solo... Strozzapreti</h3>
-  <p><strong>Date:</strong> 
-    <time datetime="2025-06-07">June 7, 2025</time>
-  </p>
-  <p><strong>Location:</strong> Sticciano, Roccastrada (GR)</p>
-  <p>An event featuring local products, live performances, activities for children, and live music.</p>
-  <a href="https://www.google.com/search?q=Not+only+Strozzapreti+Sticciano+Roccastrada+GR+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Learn more about Not only Strozzapreti event in Sticciano Roccastrada 2025">
-    Learn more
-  </a>
-</li>
+      <h3>Non solo... Strozzapreti</h3>
+      <p><strong>Fecha:</strong> 
+        <time datetime="2025-06-07">7 junio</time>
+      </p>
+      <p><strong>Lugar:</strong> Sticciano, Roccastrada (GR)</p>
+      <p>Feria gastronómica con productos típicos locales, espectáculos, actividades para niños y música en vivo.</p>
+      <a href="https://www.google.com/search?q=Non+solo+Strozzapreti+Sticciano+Scalo+GR+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Más información sobre Non solo... Strozzapreti en Sticciano Scalo 2025">
+        Más información
+      </a>
+    </li>
 
+    <li role="listitem">
+      <h3>Festa dell'Alta Maremma</h3>
+      <p><strong>Fecha:</strong> 
+        <time datetime="2025-06-13">13</time> –  
+        <time datetime="2025-06-15">15 junio</time> 
+      </p>
+      <p><strong>Lugar:</strong> Civitella Marittima (GR)</p> 
+      <p>53ª edición de la Festa dell'Alta Maremma, con especialidades típicas, Palio dei Carretti, música en vivo y recreaciones históricas.</p>
+      <a href="https://www.google.com/search?q=Festa+dell'Alta+Maremma+Civitella+Paganico+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Más información sobre la Festa dell'Alta Maremma en Civitella Paganico 2025">
+        Más información
+      </a>
+    </li>
   </ul>
 </section>
 
 <style>
 #eventi {
-  min-height: 100vh;
-  border-bottom: 3px solid #ccc;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-  box-sizing: border-box;
+  min-height: 100vh;           
+  border-bottom: 3px solid #ccc; 
+  padding-bottom: 40px;         
+  margin-bottom: 40px;          
+  box-sizing: border-box;      
 }
 
 #eventi p {
@@ -60,8 +71,9 @@
 }
 
 #eventi .event-list {
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 </style>
+
 
 

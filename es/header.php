@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Maremma Che Sagra | Local Food, Events & Traditions</title>
+    <title>Maremma Che Sagra | Sagras, festivales y gastronomía local en la Maremma, Toscana</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../css/header.css" />
@@ -70,17 +70,17 @@
     <header>
         <div class="logo-language">
             <div class="logo">
-                <a href="index.php" aria-label="Go to homepage">
-                    <img src="../img/logo2.jpg" alt="Maremma Che Sagra Logo" style="height: 60px;" />
+                <a href="index.php" aria-label="Ir a la página principal">
+                    <img src="../img/logo2.jpg" alt="Logo Maremma Che Sagra" style="height: 60px;" />
                 </a>
             </div>
 
-            <div class="language-selector" aria-label="Language selector">
+            <div class="language-selector" aria-label="Selector de idioma">
                 <select name="language" id="language-select" onchange="if(this.value) location = this.value;">
-                    <option value="" disabled selected hidden>🌍 Language</option>
+                    <option value="" disabled selected hidden>🌍 Idioma</option>
                     <option value="../index.php">Italiano</option>
-                    <option value="index.php">English</option>
-                    <option value="../es/index.php">Español</option>
+                    <option value="../en/index.php">English</option>
+                    <option value="index.php">Español</option>
                     <option value="../de/index.php">Deutsch</option>
                     <option value="../fr/index.php">Français</option>
                     <option value="../ru/index.php">Русский</option>
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <div class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-navigation">
+        <div class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-navigation">
             <span></span>
             <span></span>
             <span></span>
@@ -96,12 +96,13 @@
 
         <nav class="navigation" id="main-navigation">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#eventi">Events</a></li>
-                <li><a href="#contatti">Sponsorships</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#eventi">Eventos</a></li>
+                <li><a href="#contatti">Colaboraciones</a></li>
             </ul>
         </nav>
     </header>
 </body>
 </html>
+
 

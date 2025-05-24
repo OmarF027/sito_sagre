@@ -13,7 +13,7 @@
   <h2>Titolare del trattamento</h2>
   <p>Il titolare del trattamento è Maremma Che Sagra, con sede in Toscana, Italia. Per qualsiasi
   richiesta riguardante la privacy, è possibile contattarci all'indirizzo email: 
-  <a href="mailto:info@maremmachesagra.it">info@maremmachesagra.it</a>.</p>
+  <a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a>.</p>
 
   <h2>Tipi di dati raccolti</h2>
   <p>Raccogliamo dati personali solo se forniti volontariamente dall’utente (es. tramite form di contatto).
@@ -41,6 +41,6 @@
   Disabilitando i cookie tecnici, alcune funzionalità potrebbero non funzionare correttamente.</p>
 
   <h2>Ulteriori informazioni</h2>
-  <p>Per maggiori dettagli, contattare <a href="mailto:info@maremmachesagra.it">info@maremmachesagra.it</a>.</p>
+  <p>Per maggiori dettagli, contattare <a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a>.</p>
 </body>
 </html>
