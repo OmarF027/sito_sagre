@@ -40,6 +40,20 @@
       <a href="https://www.google.com/search?q=Non+solo+Strozzapreti+Sticciano+Scalo+GR+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Scopri di più su Non solo... Strozzapreti a Sticciano Scalo 2025">
   Scopri di più</a>
     </li>
+
+    <li role="listitem">
+    <h3>Festa dell'Alta Maremma</h3>
+    <p><strong>Data:</strong> 
+    <time datetime="2025-06-13">13</time> –  
+    <time datetime="2025-06-15">15 Giugno 2025</time> 
+    </p>
+    <p><strong>Luogo:</strong> Civitella Marittima (GR)</p> 
+    <p>53ª edizione della Festa dell'Alta Maremma. L'evento è ricco di attività, con specialità tipiche, Palio dei Carretti, musica dal vivo e rievocazioni storiche.</p>
+    <a href="https://www.google.com/search?q=Festa+dell'Alta+Maremma+Civitella+Paganico+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Scopri di più sulla Festa dell'Alta Maremma a Civitella Paganico 2025">
+      Scopri di più
+    </a>
+  </li>
+
   </ul>
 </section>
 

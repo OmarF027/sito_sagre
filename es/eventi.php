@@ -43,19 +43,6 @@
   </a>
 </li>
 
-<li role="listitem">
-    <h3>Festa dell'Alta Maremma</h3>
-    <p><strong>Date:</strong> 
-    <time datetime="2025-06-13">June 13</time> –  
-    <time datetime="2025-06-15">15, 2025</time> 
-    </p>
-    <p><strong>Location:</strong> Civitella Marittima (GR)</p> 
-    <p>The 53rd Festa dell'Alta Maremma offers local food specialties, the exciting Palio dei Carretti race, live music, and historical reenactments.</p>
-    <a href="https://www.google.com/search?q=Festa+dell'Alta+Maremma+Civitella+Paganico+2025" class="btn" target="_blank" rel="noopener noreferrer" aria-label="Learn more about the Festa dell'Alta Maremma in Civitella Paganico 2025">
-      Learn more
-    </a>
-</li>
-
   </ul>
 </section>
 

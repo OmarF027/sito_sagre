@@ -47,7 +47,7 @@
           </div>
           <div class="info-item">
             <i class="fas fa-envelope"></i>
-            <p><a href="mailto:info@maremmachesagra.it">info@maremmachesagra.it</a></p>
+            <p><a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a></p>
           </div>
           <div class="info-item">
   <i class="fas fa-file-alt" aria-hidden="true"></i>
