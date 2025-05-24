@@ -1,5 +1,5 @@
 <section id="eventi" class="section" aria-label="Eventi in programma">
-  <h2 style="font-size: 3rem; color: #000; font-weight: bold; text-align: center; margin-bottom: 40px; opacity: 0; animation: fadeIn 2s forwards; animation-delay: 0.2s;">
+  <h2 style="font-size: 3rem; color: #000; font-weight: bold; text-align: center; margin-bottom: 40px; opacity: 0; animation: fadeIn 3s forwards; animation-delay: 0.2s;">
     Eventi in programma
   </h2>
 

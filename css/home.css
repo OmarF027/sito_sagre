@@ -21,24 +21,27 @@
 #home .section-title {
     font-size: 3em;
     margin-bottom: 20px;
-    color: var(--primary-color); /* Colore principale del testo */
+    color: var(--primary-color);
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     opacity: 0;
-    animation: fadeInUp 1s 1s forwards; /* Animazione del titolo */
+    animation: slideInFromLeft 2.5s forwards;
+    text-align: center; /* centra il testo */
+    display: block; /* assicurati che funzioni con text-align */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Animazione per l'effetto di scorrimento verso l'alto */
-@keyframes fadeInUp {
-    0% {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* Evidenziare il nome del sito */

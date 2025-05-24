@@ -37,7 +37,7 @@ html, body {
   margin-bottom: 2rem;
   position: relative;
   display: inline-block;
-  animation: fadeInDown 0.8s ease forwards;
+  animation: fadeInDown 2.5s ease forwards;
 }
 
 #eventi .section-title::after {

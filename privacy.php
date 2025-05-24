@@ -18,25 +18,27 @@ include('header.php');
   Non raccogliamo dati sensibili né li cediamo a terzi.</p>
 
   <h2>Finalità del trattamento</h2>
-  <p>I dati raccolti sono utilizzati esclusivamente per rispondere alle richieste degli utenti
-  e per migliorare il servizio offerto.</p>
+  <p>I dati raccolti sono utilizzati esclusivamente per rispondere alle richieste degli utenti,
+  per migliorare il servizio offerto e per gestire l’erogazione di servizi pubblicitari (come Google Ads).</p>
 
   <h2>Cookie</h2>
-  <p>Utilizziamo cookie tecnici per migliorare la navigazione. Non utilizziamo cookie di profilazione.</p>
+  <p>Utilizziamo cookie tecnici per migliorare la navigazione e cookie di terze parti, come quelli di Google Ads,
+  per fornire pubblicità personalizzata e monitorare le performance pubblicitarie.</p>
 
   <h1>Cookie Policy</h1>
 
-  <p>I cookie sono piccoli file di testo memorizzati sul dispositivo dell’utente per migliorare l’esperienza di navigazione.</p>
+  <p>I cookie sono piccoli file di testo memorizzati sul dispositivo dell’utente per migliorare l’esperienza di navigazione e per scopi pubblicitari.</p>
 
   <h2>Tipologie di cookie utilizzati</h2>
   <ul>
     <li><strong>Cookie tecnici:</strong> necessari per il corretto funzionamento del sito.</li>
-    <li><strong>Cookie di terze parti:</strong> potremmo integrare contenuti esterni che utilizzano cookie propri.</li>
+    <li><strong>Cookie di terze parti:</strong> includono cookie pubblicitari di Google Ads e altri servizi esterni.</li>
   </ul>
 
   <h2>Gestione dei cookie</h2>
   <p>L’utente può gestire e disabilitare i cookie tramite le impostazioni del proprio browser.
-  Disabilitando i cookie tecnici, alcune funzionalità potrebbero non funzionare correttamente.</p>
+  Disabilitando i cookie tecnici, alcune funzionalità potrebbero non funzionare correttamente.
+  Il consenso all’uso dei cookie pubblicitari è richiesto esplicitamente tramite il banner cookie.</p>
 
   <h2>Ulteriori informazioni</h2>
   <p>Per maggiori dettagli, contattare <a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a>.</p>

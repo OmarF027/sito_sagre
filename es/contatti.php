@@ -45,10 +45,6 @@
             <p>58100 Grosseto (GR)<br>Toscana, Italia</p>
           </div>
           <div class="info-item">
-            <i class="fas fa-phone-alt"></i>
-            <p><a href="tel:+391234567890">+39 123 456 7890</a></p>
-          </div>
-          <div class="info-item">
             <i class="fas fa-envelope"></i>
             <p><a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a></p>
           </div>
