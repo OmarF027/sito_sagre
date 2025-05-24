@@ -34,7 +34,7 @@
       <div class="info-card">
         <h3 class="section-title">
           <i class="fas fa-info-circle"></i>
-          Informazioni
+          Contatti
         </h3>
         <div class="contact-info">
           <div class="info-item">
@@ -49,7 +49,14 @@
             <i class="fas fa-envelope"></i>
             <p><a href="mailto:info@maremmachesagra.it">info@maremmachesagra.it</a></p>
           </div>
-        </div>
+          <div class="info-item">
+  <i class="fas fa-file-alt" aria-hidden="true"></i>
+  <p>
+    <a href="privacy.php" target="_blank" rel="noopener noreferrer" aria-label="Privacy and Cookie Policy" class="privacy-link">
+      Privacy & Cookie Policy
+    </a>
+  </p>
+</div>
       </div>
     </div>
   </section> 
