@@ -41,5 +41,6 @@
 
   <h2>Informations complémentaires</h2>
   <p>Pour plus de détails, veuillez contacter <a href="mailto:maremmachesagra@gmail.com">maremmachesagra@gmail.com</a>.</p>
+  
 </body>
 </html>

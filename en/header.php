@@ -102,13 +102,17 @@
             <span></span>
         </div>
 
+        <?php 
+        $current_page = basename($_SERVER['PHP_SELF']);
+        ?>
         <nav class="navigation" id="main-navigation">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#eventi">Events</a></li>
-                <li><a href="#contatti">Sponsorships</a></li>
-            </ul>
+        <ul>
+            <li><a href="<?php echo ($current_page === 'index.php' || $current_page === 'index.php') ? '#home' : 'index.php#home'; ?>">Home</a></li>
+            <li><a href="<?php echo ($current_page === 'index.php' || $current_page === 'index.php') ? '#eventi' : 'index.php#eventi'; ?>">Events</a></li>
+            <li><a href="<?php echo ($current_page === 'index.php' || $current_page === 'index.php') ? '#contatti' : 'index.php#contatti'; ?>">Sponsorships</a></li>
+        </ul>
         </nav>
+
     </header>
 </body>
 </html>
