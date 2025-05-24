@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/eventi.css" />
     <link rel="stylesheet" href="css/contatti.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
+
     <style>
         header {
             display: flex;
@@ -49,6 +50,17 @@
         .language-selector select option[disabled] {
             color: #999;
         }
+        /* Regola mobile-specifica */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                right: 20px !important; 
+                left: auto !important;
+                position: fixed !important;
+                top: 25px !important;
+                transform: none !important;
+                z-index: 1001 !important;
+            }
+        }
         .menu-toggle {
             margin-left: auto;
             cursor: pointer;
@@ -77,18 +89,14 @@
             </div>
         </div>
 
-        <div
-            class="menu-toggle"
-            id="menuToggle"
-            aria-label="Apri menu"
-            aria-expanded="false"
-            aria-controls="main-navigation"
-        >
+        <!-- Menu Toggle sempre visibile -->
+        <div class="menu-toggle" id="menuToggle" aria-label="Apri menu" aria-expanded="false" aria-controls="main-navigation">
             <span></span>
             <span></span>
             <span></span>
         </div>
 
+        <!-- Menu di navigazione -->
         <nav class="navigation" id="main-navigation">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -99,4 +107,3 @@
     </header>
 </body>
 </html>
-
